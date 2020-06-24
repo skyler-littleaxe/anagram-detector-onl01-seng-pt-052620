@@ -10,7 +10,7 @@ class Anagram
     #want to compare word_list to word if they match return true if they do not match return empty array
     word_list.select do |word_2|
       #take word string - make it into an array - 
-      (word.split)
+      (word.split.sort) ==
     end
   end
     
